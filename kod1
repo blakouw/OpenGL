@@ -74,7 +74,7 @@ int main()
 	const int elemSize = 75;//25*3
 
 	float x = -1.f;
-	float y = 1.f;
+	float y = -1.f;
 	float dx = 0.4;
 	float dy = 0.4;
 
@@ -86,7 +86,7 @@ int main()
 			q++;
 
 		vertices[i] = x + (dx* p);
-		vertices[i + 1] = -y + (dy * q);
+		vertices[i + 1] = y + (dy * q);
 		vertices[i + 2] = 0.0f;
 
 		cout <<"x: "<< vertices[i] << "\t" <<"y: "<< vertices[i + 1] << "\t" <<"z: "<< vertices[i + 2] << endl;
