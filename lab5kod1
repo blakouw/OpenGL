@@ -85,7 +85,6 @@ int main() {
 	glAttachShader(shaderProgram, vertexShader);
 	glAttachShader(shaderProgram, fragmentShader);
 	glLinkProgram(shaderProgram);
-	// Usuń niepotrzebne shadery
 
 	int size = 2;
 	int n_verticles_to_draw = 6;
